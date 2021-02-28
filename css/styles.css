@@ -30,9 +30,21 @@
 .container2{
     text-align: center;
     line-height: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
+    font-size: 16px;
 }
 .section3{
-    background-image: url("/assets/backgrounds/s_image.jpg");
-    height:38vh
+    background-image:linear-gradient(rgba(0, 0, 0, 0.609),rgba(0, 0, 0, 0.397)), url("/assets/backgrounds/s_image.jpg");
+    height:38vh;
+    margin: 10px
+}
+.container3{
+    text-align: center;
+    line-height: 40px;
+    color:white;
+    font-size: 18px;
+    padding-top: 85px;
+}
+.section3title{
+    font-weight: bold;
 }
