@@ -1,8 +1,8 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} */
 .pIntro{
     background-image:linear-gradient(rgba(0, 0, 0, 0.644), rgba(0, 0, 0, 0.349)),url("/assets/backgrounds/h_img.jpg");
     color: white;
@@ -81,4 +81,12 @@ figcaption{
 .clickable2,
 .clickable3{
     cursor: pointer;
+}
+.row5 img{
+    height:200px;
+    width: 300px;
+    text-align: center;
+}
+.section5{
+    margin-bottom: 40px;
 }
