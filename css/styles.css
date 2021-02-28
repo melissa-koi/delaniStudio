@@ -122,4 +122,8 @@ figcaption{
 }
 .section6{
     background-image: url(/assets/backgrounds/c_image.jpg);
+    height: 100vh;
+}
+form{
+    height: 70vh;
 }
