@@ -65,3 +65,6 @@ figcaption{
 .section4 img{
     height: 70px;
 }
+.messShowing{
+    display: none;
+}
