@@ -48,6 +48,7 @@
 }
 .section3title{
     font-weight: bold;
+    padding-bottom: 10px;
 }
 figcaption{
     margin:0px 16px;
@@ -57,6 +58,7 @@ figcaption{
 }
 #row4{
     text-align: center;
+    margin-bottom: 30px;
 }
 .title4{
     text-align: center;
@@ -65,6 +67,18 @@ figcaption{
 .section4 img{
     height: 70px;
 }
-.messShowing{
+.messShowing1,
+.messShowing2,
+.messShowing3{
     display: none;
+}
+.labels{
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.clickable1,
+.clickable2,
+.clickable3{
+    cursor: pointer;
 }
