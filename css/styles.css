@@ -35,7 +35,7 @@
 }
 .section3{
     background-image:linear-gradient(rgba(0, 0, 0, 0.609),rgba(0, 0, 0, 0.397)), url("/assets/backgrounds/s_image.jpg");
-    height:38vh;
+    background-repeat: none;
     margin: 10px
 }
 .container3{
@@ -44,6 +44,7 @@
     color:white;
     font-size: 18px;
     padding-top: 85px;
+    padding-bottom: 70px;
 }
 .section3title{
     font-weight: bold;
