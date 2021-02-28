@@ -122,8 +122,32 @@ figcaption{
 }
 .section6{
     background-image: url(/assets/backgrounds/c_image.jpg);
-    height: 100vh;
-}
-form{
     height: 70vh;
+    padding-top: 45px;
+    margin: 10px;
+}
+#title6{
+    padding-bottom: 20px;
+}
+#row6{
+    padding-bottom: 10px;
+}
+#row6b{
+    padding-bottom: 20px;
+}
+#subbtn{
+    color: white;
+    text-align: center;
+    border: 2px solid grey;
+    margin-left: 50%
+}
+#subbtn:hover {
+    color:royalblue;
+}
+.clear{
+    background-color:transparent; 
+}
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color:black;
+    opacity: .5;
 }
