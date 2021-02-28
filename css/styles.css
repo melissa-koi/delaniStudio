@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    height:auto;
 }
 .pIntro{
     background-image:linear-gradient(rgba(0, 0, 0, 0.644), rgba(0, 0, 0, 0.349)),url("/assets/backgrounds/h_img.jpg");
@@ -22,4 +21,18 @@
 }
 .logo2{
     padding-top: 200px;
+}
+.aboutus{
+    text-transform: uppercase;
+    padding-top: 35px;
+    
+}
+.container2{
+    text-align: center;
+    line-height: 40px;
+    padding-bottom: 40px;
+}
+.section3{
+    background-image: url("/assets/backgrounds/s_image.jpg");
+    height:38vh
 }
