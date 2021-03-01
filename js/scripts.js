@@ -11,16 +11,43 @@ $(document).ready(function(){
         $(".messShowing3").slideToggle();
         $(".messHidden3").slideToggle();
     });
+    $("#img1").hover(function(){
+        $(".add").addClass("img__description")
+    });
+    $("#img2").hover(function(){
+        $(".add").addClass("img__description")
+    });
+    $("#img3").hover(function(){
+        $(".add").addClass("img__description")
+    });
+    $("#img4").hover(function(){
+        $(".add").addClass("img__description")
+    });
+    $("#img5").hover(function(){
+        $(".add").addClass("img__description")
+    });
+    $("#img6").hover(function(){
+        $(".add").addClass("img__description")
+    });
+    $("#img7").hover(function(){
+        $(".add").addClass("img__description")
+    });
+    $("#img8").hover(function(){
+        $(".add").addClass("img__description")
+    });
 
 });
 function validate() {
     let myForm = $("#myForm")
+    let namesInput= $("#name")
+    let emailInput= $("#email")
+    let messInput= $("#message")
     let names = $("#name").val();
     let email = $("#email").val();
     let message = $("#message").val();
 
     if(names == '' || email == '' || message == '') {
-        alert("Please fill in all the fields")
+        alert("Please fill in all the fields");
         return false;
     }else{
         let link="https://gmail.us1.list-manage.com/subscribe/post?u=70d5d821ac16afadc7dce3223&amp;id=6eb95e58bc"
