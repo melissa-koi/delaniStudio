@@ -5,7 +5,7 @@
     font-family: "Microsoft Sans Serif"
 }
 .pIntro{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.644), rgba(0, 0, 0, 0.349)),url("/assets/backgrounds/h_img.jpg");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.644), rgba(0, 0, 0, 0.349)),url("../assets/backgrounds/h_img.jpg");
     color: white;
     height:100vh;
     text-transform: uppercase;
@@ -35,7 +35,7 @@
     font-size: 16px;
 }
 .section3{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.609),rgba(0, 0, 0, 0.397)), url("/assets/backgrounds/s_image.jpg");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.609),rgba(0, 0, 0, 0.397)), url("../assets/backgrounds/s_image.jpg");
     background-repeat: none;
     margin: 10px
 }
@@ -125,7 +125,7 @@ figcaption{
     opacity: 1;
 }
 .section6{
-    background-image: url(/assets/backgrounds/c_image.jpg);
+    background-image: url(../assets/backgrounds/c_image.jpg);
     padding-bottom: 30px;
     padding-top: 45px;
     margin: 10px;
@@ -151,7 +151,7 @@ figcaption{
 .clear{
     background-color:transparent; 
 }
-.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+.form-control::placeholder {
     color:white;
     opacity: .9;
 }
