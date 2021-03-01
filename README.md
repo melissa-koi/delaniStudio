@@ -13,7 +13,7 @@ This is a website for the company delani studio that outlines the following sect
 ## Technologies used
 This webpage was created entirely by HTML5,CSS3 and JavaScript
 ## Link to live webpage
-<https://melissa-koi.github.io/week2IP/>
+< https://melissa-koi.github.io/delaniStudio/>
 ## License
 <https://github.com/melissa-koi/delaniStudio/blob/main/LICENSE><br>
 The license used is MIT
